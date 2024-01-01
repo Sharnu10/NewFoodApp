@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { RouterModule } from '@angular/router';
+
+import { DefaultComponent } from './default/default.component';
+import { SignalComponent } from './signals/signal.component';
 
 @Component({
-  standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  imports: [WelcomeComponent, RouterModule],
+  standalone: true,
+  imports: [DefaultComponent, SignalComponent],
 })
 export class AppComponent {}

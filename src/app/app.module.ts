@@ -11,11 +11,7 @@ import { TodayComponent } from './dashboard/today/today.component';
   // declarations: [AppComponent],
   // imports: [BrowserModule, SharedModule, WelcomeComponent],
   providers: [],
-  declarations: [
-    AboutComponent,
-    DashboardComponent,
-    TodayComponent
-  ],
+  declarations: [AboutComponent, DashboardComponent, TodayComponent],
   // bootstrap: [AppComponent],
 })
 export class AppModule {}
